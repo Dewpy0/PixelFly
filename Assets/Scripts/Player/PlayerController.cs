@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Клик пойман!");
             _pressJump = true;
         }
     }
