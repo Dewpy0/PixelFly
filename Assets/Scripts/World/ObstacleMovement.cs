@@ -14,4 +14,9 @@ public class ObstacleMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    
+    public void SetSpeed(float speed)
+    {
+        obstacleSpeed = speed;
+    }
 }
